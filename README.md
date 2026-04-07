@@ -6,6 +6,8 @@ A software rasterizer implementing the complete forward rendering pipeline, writ
 
 Given a 3D scene described in XML (meshes, instances, cameras, transformations), the program produces a 2D raster image in PPM format. No GPU or graphics API is used — every stage of the pipeline is implemented in software.
 
+The project was built on a course-provided scaffold (data structures, XML parsing, math utilities). The rendering logic — transformations, culling, clipping, rasterization, and depth buffering — is implemented in `Scene.cpp`.
+
 ## Pipeline Stages
 
 - **Modeling transformations** — Translation, rotation, and scaling applied to mesh instances in user-defined order
