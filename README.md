@@ -36,7 +36,7 @@ make rasterizer
 
 The example produces `sample.ppm`. Output filenames are defined in each scene's `OutputName` fields.
 
-To convert the output to PNG with ImageMagick:
+To convert the output to PNG with ImageMagick (optional):
 
 ```bash
 magick sample.ppm sample.png
